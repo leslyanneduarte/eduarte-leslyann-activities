@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/calculator.css">
+    <script src="js/numbers.js"></script>
+    <script src="js/operation.js"></script>
+</head>
+<body>
+    <div class="form-container">
+    <div class="flex-contain">
+    <h1>Simple calculator</h1>
+    </div>
+
+<div class="flex-container flexy">
+   <input id="number-input" type="text" value="0" readonly>
+   <input id="operation-input" type="hidden">
+   <input id="previous" type="hidden" value="0">
+</div>
+
+<div class="flex-num flexy">
+   <div><button class="number" onclick="number(1)">1</button></div>
+   <div><button class="number" onclick="number(2)">2</button></div>
+   <div><button class="number" onclick="number(3)">3</button></div>
+   <div><button class="operation" onclick="operation('+')"> + </button></div>
+    </div>
+
+<div class="flex-con flexy">
+    <div><button class="number" onclick="number(4)">4</button></div>
+    <div><button class="number" onclick="number(5)">5</button></div>
+    <div><button class="number" onclick="number(6)">6</button></div>
+    <div><button class="operation" onclick="operation('-')"> - </button></div>
+</div>
+
+<div class="flex-lone flexy">
+    <div><button class="number" onclick="number(7)">7</button></div>
+    <div><button class="number" onclick="number(8)">8</button></div>
+    <div><button class="number" onclick="number(9)">9</button></div>
+    <div><button class="operation" onclick="operation('*')"> * </button></div>
+</div>
+
+<div class="flex-zero flexy">
+    <div><button class="number" onclick="number(0)">0</button></div>
+    <div><button class="operation" onclick="operation('/')"> / </button></div>
+    <div><button class="equal" onclick="equal('=')"> = </button></div>
+    <div><button class="clear" onclick="clearInput()">C</button></div>
+    </div>
+    </div>
+</body>
+</html>

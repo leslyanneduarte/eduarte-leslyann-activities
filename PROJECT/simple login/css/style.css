@@ -1,0 +1,96 @@
+.form-container {
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #060000;
+    border-radius: 5px;
+    text-align: center;
+}
+label {
+    font-size: 25px;
+    color:white;
+}
+
+button {
+    padding: 5px;
+    background-color: rgb(36, 176, 223);
+    width: 300px;
+    height: 30px;
+}
+
+#userLabel {
+    background-color: yellowgreen;
+}
+
+#passLabel {
+    background-color: beige;
+}
+.labelStyle {
+    background-color: red;
+}
+
+.forgot:link {
+    font-size: 20px;
+    color:blue;
+    font-style: none;
+}
+
+.forgot:hover {
+    font-size: 30px;
+    color: red;
+    background-color: yellow;
+}
+
+.forgot:visited {
+    background-color: antiquewhite;
+}
+
+.forgot:active {
+    background-color: aliceblue;
+}
+
+.button:link {
+    font-size: 20px;
+    color: red;
+    font-style: none;
+}
+
+.button:hover {
+    font-size: 20px;
+    color:aqua;
+    background-color: black;
+}
+
+.button:visited {
+    background-color:beige;
+}
+
+.button:active {
+    background-color: blueviolet;
+}
+
+.text {
+    background-color: pink;
+}
+
+.register:link {
+    font-size: 20px;
+    color:blue;
+    font-style: none;
+}
+
+.register:hover {
+    font-size: 30px;
+    color: red;
+    background-color: yellow;
+}
+
+#error {
+    font-size: 25px;
+    color: red;
+}
+
+body {
+    background-color: violet;
+}

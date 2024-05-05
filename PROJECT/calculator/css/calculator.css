@@ -1,0 +1,103 @@
+.flex-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: dodgerblue;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: dodgerblue;
+}
+
+.flex-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: dodgerblue;
+}
+
+.flex-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+}
+
+.flex-lone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+}
+
+.flex-zero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+}
+
+
+.flex-contain>div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.flex-container>div {
+    margin: 10px;
+    padding: 20px;
+   
+}
+
+.flex-num>div {
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.flex-con>div {
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.flex-lone>div {
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.flex-zero>div {
+    background-color: #f1f1f1;
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+.flexy>div {
+    background-color: violet;
+}
+
+body {
+    background-color: chocolate;
+}
+
+.form-container {
+    border: 3px solid green;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: black;
+}
